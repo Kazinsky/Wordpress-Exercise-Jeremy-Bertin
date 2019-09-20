@@ -1,0 +1,15 @@
+Package includes Wordpress files and Database
+
+
+Database information
+
+Database Name:bitnami_wordpress
+User:bn_wordpress
+password:2a7905cf46
+
+
+Hostname
+127.0.0.1:3306
+
+Site:
+http://localhost/wordpress/
