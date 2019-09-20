@@ -1,0 +1,99 @@
+/*
+Theme Name: exercise-wordpress
+Theme URI: 
+Author: Jeremy Bertin
+Author URI: 
+Description: Custom Designer Theme Created By Jeremy Bertin
+Version: 1.0
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/gpl.html
+Tags:test
+Text Domain: exercise-wordpress
+
+exercise-wordpress WordPress Theme © 2019 Jeremy Bertin
+exercise-wordpress is distributed under the terms of the GNU GPL
+*/
+
+html, body {
+  overflow-x:hidden;
+} 
+
+/*Basics*/
+body{
+    font-size:100%;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    overflow-x: hidden;
+    background: #ffffff;
+}
+
+a{
+    color: #4e4e4e;
+    text-decoration: none;
+    -webkit-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+a::-moz-focus-inner {
+  border: 0;
+}
+
+a:hover{
+    color: rgb(73, 196, 161);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+h1{
+    font-size: 2.5em;
+    line-height: 1.15;
+}
+
+h4{
+    font-size: 1.7em;
+    line-height: 1.45em;
+    margin: 0.3em 0;
+    font-weight: 400;
+}
+
+p{
+    line-height: 1.61em;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+section.content {
+  width: 90%;
+  height: 85vh;
+  margin: 2em auto 0em auto;
+}
+
+.red{
+    color: #ff0000;
+}
+
+.col-2{
+  width: 50%;
+  display: inline-block;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.col-3{
+  width: 33.33%;
+  display: inline-block;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.post-item {
+    font-size: 2em;
+    font-weight: 700;
+}
