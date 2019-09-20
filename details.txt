@@ -1,5 +1,9 @@
 Package includes Wordpress files and Database
 
+Wordpress Admin Login
+
+user:admin
+password:root
 
 Database information
 
